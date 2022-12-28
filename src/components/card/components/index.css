@@ -1,0 +1,13 @@
+.more-info {
+    border-radius: 50%;
+    border: solid;
+    width: 17px;
+    height: 17px;
+    position: relative;
+  }
+
+  .more-info div {
+    position: absolute;
+    top: -3px;
+    left: 6px;
+}

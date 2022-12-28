@@ -1,0 +1,26 @@
+.button-wrapper {
+  flex-basis: 100%;
+}
+
+@media (max-width: 720px) {
+  .button-wrapper {
+    position: sticky;
+    bottom: 0px;
+  }
+}
+
+.button-wrapper > button {
+  border: 1mm ridge rgb(220, 132, 50);
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  background-color: rgb(218, 41, 21);
+  color: rgb(220, 152, 50);
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1mm solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
