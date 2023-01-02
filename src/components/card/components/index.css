@@ -1,13 +1,14 @@
 .more-info {
-    border-radius: 50%;
-    border: solid;
-    width: 17px;
-    height: 17px;
-    position: relative;
-  }
+  border-radius: 50%;
+  border: solid;
+  width: 1.7rem;
+  height: 1.7rem;
+  position: relative;
+}
 
-  .more-info div {
-    position: absolute;
-    top: -3px;
-    left: 6px;
+.more-info div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
